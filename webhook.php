@@ -23,7 +23,7 @@ public URL
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/home5/xinerkne/www/github/";
+$LOCAL_ROOT         = "/home5/xinerkne/www/github";
 $LOCAL_REPO_NAME    = "XinErkNet";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:maxing80/XinErkNet.git";
