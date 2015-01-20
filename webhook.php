@@ -46,7 +46,7 @@ if ( $_POST['payload'] ) {
     die("done " . mktime());
   }
 }else{
-	echo "no hay variables";
+	echo " No hay variables";
 }
 
 ?>
