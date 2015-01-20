@@ -1,4 +1,7 @@
 <?php
+
+date_default_timezone_set("America/Mexico_City");
+echo date("Y/m/d H:i:s");
 /** 
   * This script is for easily deploying updates to Github repos to your local server. It 
 will automatically git clone or 
@@ -20,7 +23,7 @@ public URL
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/home5/xinerkne/www/";
+$LOCAL_ROOT         = "/home5/xinerkne/www/github/";
 $LOCAL_REPO_NAME    = "XinErkNet";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:maxing80/XinErkNet.git";
@@ -42,6 +45,8 @@ if ( $_POST['payload'] ) {
 
     die("done " . mktime());
   }
+}else{
+	echo "no hay variables";
 }
 
 ?>
